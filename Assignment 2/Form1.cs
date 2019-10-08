@@ -45,5 +45,39 @@ namespace Assignment_2
             double tot1 = r1 + r2;
             label1.Text = "Total Resistance = " + tot1 + " Ω";
         }
+
+        private void Label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Button2_Click(object sender, EventArgs e)
+        {
+            double r3;
+
+            try
+            {
+                r3 = double.Parse(textBox3.Text);
+            }
+            catch
+            {
+                MessageBox.Show("Not a correct value.");
+                r3 = 0.0;
+            }
+            double r4;
+
+            try
+            {
+                r4 = double.Parse(textBox4.Text);
+            }
+            catch
+            {
+                MessageBox.Show("Not a correct value.");
+                r4 = 0.0;
+            }
+
+            double tot2 = (1 / ((1.0 / r3) + (1.0 / r4)));
+            label2.Text = "Total Resistance = " + tot2 + " Ω";
+        }
     }
 }
