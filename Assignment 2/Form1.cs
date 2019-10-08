@@ -79,5 +79,92 @@ namespace Assignment_2
             double tot2 = (1 / ((1.0 / r3) + (1.0 / r4)));
             label2.Text = "Total Resistance = " + tot2 + " Ω";
         }
+
+        private void Button3_Click(object sender, EventArgs e)
+        {
+            double r5;
+
+            try
+            {
+                r5 = double.Parse(textBox5.Text);
+            }
+            catch
+            {
+                MessageBox.Show("Not a correct value.");
+                r5 = 0.0;
+            }
+            double r6;
+
+            try
+            {
+                r6 = double.Parse(textBox6.Text);
+            }
+            catch
+            {
+                MessageBox.Show("Not a correct value.");
+                r6 = 0.0;
+            }
+
+            double r7;
+
+            try
+            {
+                r7 = double.Parse(textBox7.Text);
+            }
+            catch
+            {
+                MessageBox.Show("Not a correct value.");
+                r7 = 0.0;
+            }
+
+            double tot3 = r5 + r6+ r7;
+            label3.Text = "Total Resistance = " + tot3 + " Ω";
+        }
+
+        private void Label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Button4_Click(object sender, EventArgs e)
+        {
+            double r8;
+
+            try
+            {
+                r8 = double.Parse(textBox8.Text);
+            }
+            catch
+            {
+                MessageBox.Show("Not a correct value.");
+                r8 = 0.0;
+            }
+            double r9;
+
+            try
+            {
+                r9 = double.Parse(textBox9.Text);
+            }
+            catch
+            {
+                MessageBox.Show("Not a correct value.");
+                r9 = 0.0;
+            }
+
+            double r10;
+
+            try
+            {
+                r10 = double.Parse(textBox10.Text);
+            }
+            catch
+            {
+                MessageBox.Show("Not a correct value.");
+                r10 = 0.0;
+            }
+
+            double tot4 = (1 / ((1.0 / r8) + ((1.0 / r9) + (1.0 / r10))));
+            label4.Text = "Total Resistance = " + tot4 + " Ω";
+        }
     }
 }
