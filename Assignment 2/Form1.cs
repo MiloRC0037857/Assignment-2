@@ -164,6 +164,7 @@ namespace Assignment_2
             }
 
             double tot4 = (1 / ((1.0 / r8) + ((1.0 / r9) + (1.0 / r10))));
+            double tot4 = tot4.ToString("N3");
             label4.Text = "Total Resistance = " + tot4 + " Ω";
         }
     }
