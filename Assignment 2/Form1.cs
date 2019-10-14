@@ -30,6 +30,7 @@ namespace Assignment_2
             {
                 MessageBox.Show("Not a correct value.");
                 r1 = 0.0;
+                //This makes it so that if a incorrect value is entered then the program wont crash and the variable is set to 0
             }
             //The try catch checks if the input is an integer and not a string
             double r2;
@@ -43,6 +44,7 @@ namespace Assignment_2
             {
                 MessageBox.Show("Not a correct value.");
                 r2 = 0.0;
+                //This makes it so that if a incorrect value is entered then the program wont crash and the variable is set to 0
             }
             //The try catch checks if the input is an integer and not a string
 
@@ -70,6 +72,7 @@ namespace Assignment_2
             {
                 MessageBox.Show("Not a correct value.");
                 r3 = 0.0;
+                //This makes it so that if a incorrect value is entered then the program wont crash and the variable is set to 0
             }
             //The try catch checks if the input is an integer and not a string
 
@@ -84,6 +87,7 @@ namespace Assignment_2
             {
                 MessageBox.Show("Not a correct value.");
                 r4 = 0.0;
+                //This makes it so that if a incorrect value is entered then the program wont crash and the variable is set to 0
             }
             //The try catch checks if the input is an integer and not a string
 
@@ -106,6 +110,7 @@ namespace Assignment_2
             {
                 MessageBox.Show("Not a correct value.");
                 r5 = 0.0;
+                //This makes it so that if a incorrect value is entered then the program wont crash and the variable is set to 0
             }
             //The try catch checks if the input is an integer and not a string
 
@@ -120,6 +125,7 @@ namespace Assignment_2
             {
                 MessageBox.Show("Not a correct value.");
                 r6 = 0.0;
+                //This makes it so that if a incorrect value is entered then the program wont crash and the variable is set to 0
             }
             //The try catch checks if the input is an integer and not a string
 
@@ -134,6 +140,7 @@ namespace Assignment_2
             {
                 MessageBox.Show("Not a correct value.");
                 r7 = 0.0;
+                //This makes it so that if a incorrect value is entered then the program wont crash and the variable is set to 0
             }
             //The try catch checks if the input is an integer and not a string
 
@@ -161,6 +168,7 @@ namespace Assignment_2
             {
                 MessageBox.Show("Not a correct value.");
                 r8 = 0.0;
+                //This makes it so that if a incorrect value is entered then the program wont crash and the variable is set to 0
             }
             //The try catch checks if the input is an integer and not a string
 
@@ -175,6 +183,7 @@ namespace Assignment_2
             {
                 MessageBox.Show("Not a correct value.");
                 r9 = 0.0;
+                //This makes it so that if a incorrect value is entered then the program wont crash and the variable is set to 0
             }
             //The try catch checks if the input is an integer and not a string
 
@@ -189,6 +198,7 @@ namespace Assignment_2
             {
                 MessageBox.Show("Not a correct value.");
                 r10 = 0.0;
+                //This makes it so that if a incorrect value is entered then the program wont crash and the variable is set to 0
             }
             //The try catch checks if the input is an integer and not a string
 
